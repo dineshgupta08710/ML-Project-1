@@ -13,6 +13,10 @@ class DataIngestionConfig:
     test_data_path : str = os.path.join('artifacts','test.csv')
     raw_data_path : str = os.path.join('artifacts','data.csv')
 
+# Data Class :-
+    # A dataclass is a Python class used to store data.
+    # It automatically generates special methods like __init__(), __repr__(), etc., reducing boilerplate.
+
 class DataIngestion:
     def __init__(self):
         self.ingestion_config = DataIngestionConfig()
